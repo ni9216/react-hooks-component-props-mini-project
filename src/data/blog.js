@@ -1,31 +1,33 @@
-import logo from "../assets/logo";
+// src/data/blog.js
 
 const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+  name: "Overreacted",
+  image: "https://via.placeholder.com/215",
+  about: "A blog about React.",
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "The WET Codebase",
+      date: "July 13, 2020",
+      preview: "Come waste your time with me.",
+      minutes: 5
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "Goodbye, Clean Code",
+      date: "January 1, 2020",
+      preview: "Let clean code guide you. Then let it go.",
+      minutes: 15
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
+      title: "My Decade in Review",
+      date: "January 1, 2020",
+      preview: "A personal reflection.",
+      minutes: 47
     },
-  ],
+    // Add more posts as needed
+  ]
 };
 
 export default blogData;
